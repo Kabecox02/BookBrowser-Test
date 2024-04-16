@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kabea\\Source\\Repos\\BookBrowser2\\BookBrowser\\BookBrowser.csproj": {}
+    "C:\\Users\\Kabea\\Source\\Repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\BookBrowser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kabea\\Source\\Repos\\BookBrowser2\\BookBrowser\\BookBrowser.csproj": {
+    "C:\\Users\\Kabea\\Source\\Repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\BookBrowser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kabea\\Source\\Repos\\BookBrowser2\\BookBrowser\\BookBrowser.csproj",
+        "projectUniqueName": "C:\\Users\\Kabea\\Source\\Repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\BookBrowser.csproj",
         "projectName": "BookBrowser",
-        "projectPath": "C:\\Users\\Kabea\\Source\\Repos\\BookBrowser2\\BookBrowser\\BookBrowser.csproj",
+        "projectPath": "C:\\Users\\Kabea\\Source\\Repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\BookBrowser.csproj",
         "packagesPath": "C:\\Users\\Kabea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kabea\\Source\\Repos\\BookBrowser2\\BookBrowser\\obj\\",
+        "outputPath": "C:\\Users\\Kabea\\Source\\Repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
