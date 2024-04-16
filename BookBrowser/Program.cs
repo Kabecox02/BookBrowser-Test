@@ -21,14 +21,14 @@ namespace BookBrowser
             ApplicationConfiguration.Initialize();
               string connectionString = "Server=DESKTOP-R5VTNH0\\SQLEXPRESS;Database=YourDatabaseName;Integrated Security=True;";
             
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            /*using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
                 //test
                 // Perform database operations here...
 
                 connection.Close();
-            }
+            }*/
 
             Application.Run(new Form1());
         }
