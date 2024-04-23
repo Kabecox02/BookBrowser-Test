@@ -83,9 +83,9 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 16F);
-            button1.Location = new Point(321, 321);
+            button1.Location = new Point(313, 321);
             button1.Name = "button1";
-            button1.Size = new Size(154, 35);
+            button1.Size = new Size(154, 41);
             button1.TabIndex = 4;
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
