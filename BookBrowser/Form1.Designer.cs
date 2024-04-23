@@ -1,5 +1,5 @@
 ﻿namespace BookBrowser
-    
+
 {
     partial class Form1
     {
