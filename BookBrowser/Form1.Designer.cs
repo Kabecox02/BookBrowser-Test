@@ -39,6 +39,7 @@
             label4 = new Label();
             textBox4 = new TextBox();
             label5 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -137,11 +138,22 @@
             label5.Text = "BOOK BROWSER";
             label5.TextAlign = ContentAlignment.TopCenter;
             // 
+            // button2
+            // 
+            button2.Location = new Point(336, 394);
+            button2.Name = "button2";
+            button2.Size = new Size(115, 28);
+            button2.TabIndex = 10;
+            button2.Text = "Main Menu";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(label5);
             Controls.Add(textBox4);
             Controls.Add(label4);
@@ -171,5 +183,6 @@
         private Label label4;
         private TextBox textBox4;
         private Label label5;
+        private Button button2;
     }
 }
