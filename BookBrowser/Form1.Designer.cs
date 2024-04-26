@@ -84,7 +84,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 16F);
-            button1.Location = new Point(313, 321);
+            button1.Location = new Point(318, 320);
             button1.Name = "button1";
             button1.Size = new Size(154, 41);
             button1.TabIndex = 4;
@@ -140,9 +140,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(336, 394);
+            button2.Location = new Point(318, 382);
             button2.Name = "button2";
-            button2.Size = new Size(115, 28);
+            button2.Size = new Size(154, 28);
             button2.TabIndex = 10;
             button2.Text = "Main Menu";
             button2.UseVisualStyleBackColor = true;

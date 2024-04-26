@@ -47,8 +47,8 @@ namespace BookBrowser
                     username = textBox1.Text;
                     password = textBox2.Text;
 
-                    Form2 form2 = new Form2();
-                    form2.Show();
+                    Form2 form4 = new Form2();
+                    form4.Show();
                     this.Hide();
                 }
                 else

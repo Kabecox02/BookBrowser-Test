@@ -102,3 +102,6 @@ C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\bin\Debug\net
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrow.70146436.Up2Date
+C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form4.resources
+C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form5.resources
+C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form6.resources

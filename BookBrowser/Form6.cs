@@ -10,20 +10,14 @@ using System.Windows.Forms;
 
 namespace BookBrowser
 {
-    public partial class Form2 : Form
+    public partial class Form6 : Form
     {
-        public Form2()
+        public Form6()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            //choose for me 
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
             form4.Show();
