@@ -19,7 +19,7 @@ namespace BookBrowser
             InitializeComponent();
         }
         //Add Database info Here
-        SqlConnection conn = new SqlConnection(@"Server=DESKTOP-R5VTNH0\SQLEXPRESS;Database=YourDatabaseName;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection(@"Data Source=desktop-8ef13cg\sqlexpress01;Initial catalog=BookBrowser;Integrated Security=True;");
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -28,8 +28,8 @@ namespace BookBrowser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username;
-            string password;
+            string username, password;
+            
 
             username = textBox1.Text;
             password = textBox2.Text;
@@ -47,13 +47,13 @@ namespace BookBrowser
                     username = textBox1.Text;
                     password = textBox2.Text;
 
-                    Form2 form4 = new Form2();
+                    Form4 form4 = new Form4();
                     form4.Show();
                     this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Invalid Login");
+                    MessageBox.Show("Incorrect Username or Password");
                     textBox1.Clear();
                     textBox2.Clear();
                 }
@@ -62,7 +62,9 @@ namespace BookBrowser
             }
             catch 
             {
-                MessageBox.Show("Invalid Login");
+                MessageBox.Show("Invalid Login \n Please try again");
+                textBox1.Clear();
+                textBox2.Clear();
             }
             finally
             {
