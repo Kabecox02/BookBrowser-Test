@@ -30,7 +30,7 @@ namespace BookBrowser
                 connection.Close();
             }*/
 
-            Application.Run(new Form3());
+            Application.Run(new Form4());
         }
     }
 }
