@@ -19,7 +19,7 @@ namespace BookBrowser
             InitializeComponent();
         }
         //Add Database info Here
-        SqlConnection conn = new SqlConnection(@"Data Source=desktop-8ef13cg\sqlexpress01;Initial catalog=BookBrowser;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
 
         private void label4_Click(object sender, EventArgs e)
         {

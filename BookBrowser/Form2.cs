@@ -26,7 +26,7 @@ namespace BookBrowser
             MessageBox.Show("You're Random Book is Book number: " +  randomnumber.ToString());
 
         }
-
+        //Returns back to Menu
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
