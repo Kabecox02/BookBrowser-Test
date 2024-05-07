@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace BookBrowser
 {
@@ -23,19 +24,40 @@ namespace BookBrowser
             button1.Click += new EventHandler(button1_Click);
         }
 
+        SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
+
         private void button1_Click(object sender, EventArgs e)
         {
-            bool isValid = true;
-            author = textBox1.Text;
-            ISBN = textBox2.Text;
-            publisher = textBox3.Text;
-            title = textBox4.Text;
+           
+                bool isValid = true;
+                author = textBox1.Text;
+                ISBN = textBox2.Text;
+                publisher = textBox3.Text;
+                title = textBox4.Text;
 
-            if (author.Length == 0 && ISBN.Length == 0 && publisher.Length == 0 && title.Length == 0)
+                if (author.Length == 0 && ISBN.Length == 0 && publisher.Length == 0 && title.Length == 0)
+                {
+                    isValid = false;
+                    MessageBox.Show("At least one field must be filled out");
+                }
+
+            else
             {
-                isValid = false;
-                MessageBox.Show("At least one field must be filled out");
+                string query = "SELECT * FROM Books WHERE author = '" + textBox1.Text + "' OR ISBN = '" + textBox2.Text + "' OR Publisher = '"+textBox3.Text+"' OR Title = '"+textBox4.Text+"'";
+                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+
+                DataTable dtable = new DataTable();
+                sda.Fill(dtable);
+
+                dataGridView1.DataSource = dtable;
+                if (dtable.Rows.Count < 1)
+                {
+                    MessageBox.Show("No results match this search criteria \n Please Try Again!");
+                }
+
             }
+
+
 
         }
 

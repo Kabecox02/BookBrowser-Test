@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Log In.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Log In.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Search.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Randomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Randomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +47,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Log In.cs",
+              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Log In.cs",
+              "RelativeDocumentMoniker": "BookBrowser\\Log In.cs",
+              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Log In.cs",
+              "RelativeToolTip": "BookBrowser\\Log In.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:44:44.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Search.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.Designer.cs",
+              "RelativeDocumentMoniker": "BookBrowser\\Search.Designer.cs",
+              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.Designer.cs",
+              "RelativeToolTip": "BookBrowser\\Search.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:40:39.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cs",
+              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.cs",
+              "RelativeDocumentMoniker": "BookBrowser\\Search.cs",
+              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Search.cs",
+              "RelativeToolTip": "BookBrowser\\Search.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:40:33.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Randomize.cs",
               "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Randomize.cs",
               "RelativeDocumentMoniker": "BookBrowser\\Randomize.cs",
@@ -42,12 +92,11 @@
               "RelativeToolTip": "BookBrowser\\Randomize.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T21:37:43.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T21:37:43.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form5.cs",
               "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form5.cs",
               "RelativeDocumentMoniker": "BookBrowser\\Form5.cs",
@@ -55,8 +104,7 @@
               "RelativeToolTip": "BookBrowser\\Form5.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T21:37:38.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T21:37:38.935Z"
             }
           ]
         }
