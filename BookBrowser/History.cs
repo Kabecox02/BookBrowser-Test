@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace BookBrowser
 {
-    public partial class Form6 : Form
+    public partial class History : Form
     {
-        public Form6()
+        public History()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
             form4.Show();
             this.Hide();
         }

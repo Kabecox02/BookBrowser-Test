@@ -1,6 +1,6 @@
 ﻿namespace BookBrowser
 {
-    partial class Form4
+    partial class BookBrowser_MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -160,7 +160,7 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
-            // Form4
+            // BookBrowser_MainMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -176,8 +176,8 @@
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Name = "Form4";
-            Text = "Form4";
+            Name = "BookBrowser_MainMenu";
+            Text = "Book Browser - Main Menu";
             ResumeLayout(false);
         }
 

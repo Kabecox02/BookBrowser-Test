@@ -19,7 +19,7 @@ namespace BookBrowser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
             form4.Show();
             this.Hide();
         }

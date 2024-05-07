@@ -1,6 +1,6 @@
 ﻿namespace BookBrowser
 {
-    partial class Form2
+    partial class Randomize
     {
         /// <summary>
         /// Required designer variable.
@@ -49,7 +49,7 @@
             label2.Font = new Font("Segoe UI", 15F);
             label2.Location = new Point(211, 150);
             label2.Name = "label2";
-            label2.Size = new Size(380, 39);
+            label2.Size = new Size(398, 66);
             label2.TabIndex = 1;
             label2.Text = "Let our system find a book automatically!";
             // 
@@ -66,7 +66,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(348, 367);
+            button2.Location = new Point(356, 352);
             button2.Name = "button2";
             button2.Size = new Size(86, 32);
             button2.TabIndex = 3;
@@ -74,7 +74,7 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // Form2
+            // Randomize
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -83,8 +83,8 @@
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form2";
-            Text = "Form2";
+            Name = "Randomize";
+            Text = "Book Browser - Randomize";
             ResumeLayout(false);
         }
 

@@ -18,8 +18,8 @@ namespace BookBrowser
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-              string connectionString = "Server=N00BS-PC\\SQLEXPRESS01;Database=YourDatabaseName;Integrated Security=True;";
+            /*ApplicationConfiguration.Initialize();
+            /*  string connectionString = "Server=N00BS-PC\\SQLEXPRESS01;Database=YourDatabaseName;Integrated Security=True;";
             
             /*using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -30,7 +30,7 @@ namespace BookBrowser
                 connection.Close();
             }*/
 
-            Application.Run(new Form3());
+            Application.Run(new BookBrowser_LogIn());
         }
     }
 }

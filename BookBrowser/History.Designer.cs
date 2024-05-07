@@ -1,6 +1,6 @@
 ﻿namespace BookBrowser
 {
-    partial class Form6
+    partial class History
     {
         /// <summary>
         /// Required designer variable.
@@ -50,15 +50,15 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form6
+            // History
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label1);
-            Name = "Form6";
-            Text = "Form6";
+            Name = "History";
+            Text = "Book Browser - History";
             ResumeLayout(false);
         }
 

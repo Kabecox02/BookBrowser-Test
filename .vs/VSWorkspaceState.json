@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BookBrowser"
   ],
-  "SelectedNode": "\\BookBrowser.sln",
+  "SelectedNode": "\\BookBrowser\\BookBrowser.sln",
   "PreviewInSolutionExplorer": false
 }

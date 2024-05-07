@@ -58,7 +58,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "Form5";
-            Text = "Form5";
+            Text = "Book Browser - Input";
             ResumeLayout(false);
         }
 

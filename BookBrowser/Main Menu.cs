@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookBrowser
 {
-    public partial class Form4 : Form
+    public partial class BookBrowser_MainMenu : Form
     {
-        public Form4()
+        public BookBrowser_MainMenu()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace BookBrowser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Search form1 = new Search();
             form1.Show();
             this.Hide();
         }
@@ -38,14 +38,14 @@ namespace BookBrowser
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Randomize form2 = new Randomize();
             form2.Show();
             this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
+            History form6 = new History();
             form6.Show();
             this.Hide();
         }

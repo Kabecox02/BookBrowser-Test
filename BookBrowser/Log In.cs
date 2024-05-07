@@ -12,14 +12,14 @@ using System.Data.SqlClient;
 
 namespace BookBrowser
 {
-    public partial class Form3 : Form
+    public partial class BookBrowser_LogIn : Form
     {
-        public Form3()
+        public BookBrowser_LogIn()
         {
             InitializeComponent();
         }
         //Add Database info Here
-        SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
+        SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -47,7 +47,7 @@ namespace BookBrowser
                     username = textBox1.Text;
                     password = textBox2.Text;
 
-                    Form4 form4 = new Form4();
+                    BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
                     form4.Show();
                     this.Hide();
                 }

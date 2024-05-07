@@ -1,6 +1,6 @@
 ﻿namespace BookBrowser
 {
-    partial class Form3
+    partial class BookBrowser_LogIn
     {
         /// <summary>
         /// Required designer variable.
@@ -52,7 +52,7 @@
             label2.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
             label2.Location = new Point(230, 70);
             label2.Name = "label2";
-            label2.Size = new Size(337, 54);
+            label2.Size = new Size(356, 54);
             label2.TabIndex = 1;
             label2.Text = "BOOK BROWSER";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -104,7 +104,7 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form3
+            // BookBrowser_LogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -116,8 +116,8 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form3";
-            Text = "Form3";
+            Name = "BookBrowser_LogIn";
+            Text = "Book Browser - Log In";
             ResumeLayout(false);
             PerformLayout();
         }

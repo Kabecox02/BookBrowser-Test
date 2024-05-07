@@ -11,9 +11,9 @@ using static System.Security.Cryptography.RandomNumberGenerator;
 
 namespace BookBrowser
 {
-    public partial class Form2 : Form
+    public partial class Randomize : Form
     {
-        public Form2()
+        public Randomize()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace BookBrowser
         //Returns back to Menu
         private void button2_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
             form4.Show();
             this.Hide();
         }
