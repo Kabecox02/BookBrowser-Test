@@ -23,7 +23,7 @@ namespace BookBrowser
         {
             //choose for me 
             int randomnumber = x.Next();
-            MessageBox.Show("You're Random Book is Book number: " +  randomnumber.ToString());
+            MessageBox.Show("Your Random Book is Book number: " +  randomnumber.ToString());
 
         }
         //Returns back to Menu

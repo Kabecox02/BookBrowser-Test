@@ -1,6 +1,6 @@
 ﻿namespace BookBrowser
 {
-    partial class Form5
+    partial class Input
     {
         /// <summary>
         /// Required designer variable.

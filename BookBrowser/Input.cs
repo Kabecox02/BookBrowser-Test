@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookBrowser
 {
-    public partial class Form5 : Form
+    public partial class Input : Form
     {
-        public Form5()
+        public Input()
         {
             InitializeComponent();
         }

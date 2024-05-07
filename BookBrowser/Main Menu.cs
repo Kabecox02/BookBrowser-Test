@@ -31,7 +31,7 @@ namespace BookBrowser
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            Input form5 = new Input();
             form5.Show();
             this.Hide();
         }
