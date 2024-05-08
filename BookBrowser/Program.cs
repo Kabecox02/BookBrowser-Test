@@ -1,36 +1,40 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
 
 namespace BookBrowser
 {
     internal static class Program
     {
-        
         /// <summary>  
-        ///  The main entry point for the application.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-              string connectionString = "Server=DESKTOP-R5VTNH0\\SQLEXPRESS;Database=YourDatabaseName;Integrated Security=True;";
-            
-            /*using (SqlConnection connection = new SqlConnection(connectionString))
+            // Connection string for SQL Server
+            string connectionString = @"Data Source=YourServerName;Initial Catalog=YourDatabaseName;Integrated Security=True";
+
+            // Create a SqlConnection object
+            SqlConnection conn = new SqlConnection(connectionString);
+
+            try
             {
-                connection.Open();
-                //test
-                // Perform database operations here...
+                // Open the connection
+                conn.Open();
 
-                connection.Close();
-            }*/
+                // If connection is successful, run your form
+                Application.Run(new Form3());
+            }
+            catch (Exception ex)
+            {
+                // Handle connection error
+                MessageBox.Show("Connection error: " + ex.Message);
+            }
+            finally
+            {
+                // Close the connection
+                conn.Close();
+            }
 
-            Application.Run(new Form4());
+
         }
-    }
-}
+}   }

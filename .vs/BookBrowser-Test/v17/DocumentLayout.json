@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\",
+  "WorkspaceRootPath": "C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookBrowser\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -34,24 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form2.cs",
-              "RelativeDocumentMoniker": "BookBrowser\\Form2.cs",
-              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form2.cs",
-              "RelativeToolTip": "BookBrowser\\Form2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:36:18.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs",
               "RelativeDocumentMoniker": "BookBrowser\\Form1.cs",
-              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs",
+              "ToolTip": "C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.cs",
               "RelativeToolTip": "BookBrowser\\Form1.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,15 +50,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "BookBrowser\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Kabea\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\yohan\\source\\repos\\Kabecox02\\BookBrowser-Test\\BookBrowser\\Form1.Designer.cs",
               "RelativeToolTip": "BookBrowser\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:05:06.115Z"
+              "WhenOpened": "2024-04-23T23:05:06.115Z",
+              "EditorCaption": ""
             }
           ]
         }
