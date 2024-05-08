@@ -154,12 +154,6 @@ C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrows
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.AssemblyReference.cache
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form1.resources
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form2.resources
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form3.resources
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form4.resources
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form5.resources
-C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Form6.resources
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.GenerateResource.cache
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.AssemblyInfoInputs.cache
@@ -178,3 +172,9 @@ C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Randomize.resources
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Search.resources
 C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Input.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.History.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Input.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_LogIn.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_MainMenu.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Randomize.resources
+C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Search.resources

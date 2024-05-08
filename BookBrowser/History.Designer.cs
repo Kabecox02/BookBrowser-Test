@@ -30,15 +30,19 @@
         {
             label1 = new Label();
             button1 = new Button();
+            HistoryGridView = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)HistoryGridView).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
-            label1.Location = new Point(327, 123);
+            label1.Font = new Font("Segoe UI", 15F);
+            label1.Location = new Point(267, 33);
             label1.Name = "label1";
-            label1.Size = new Size(145, 79);
+            label1.Size = new Size(256, 34);
             label1.TabIndex = 0;
-            label1.Text = "Search History Form";
+            label1.Text = "The Previous Search was";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -50,15 +54,26 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // HistoryGridView
+            // 
+            HistoryGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            HistoryGridView.Location = new Point(227, 85);
+            HistoryGridView.Name = "HistoryGridView";
+            HistoryGridView.Size = new Size(352, 258);
+            HistoryGridView.TabIndex = 2;
+            HistoryGridView.CellContentClick += HistoryGridView_CellContentClick;
+            // 
             // History
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(HistoryGridView);
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "History";
             Text = "Book Browser - History";
+            ((System.ComponentModel.ISupportInitialize)HistoryGridView).EndInit();
             ResumeLayout(false);
         }
 
@@ -66,5 +81,6 @@
 
         private Label label1;
         private Button button1;
+        private DataGridView HistoryGridView;
     }
 }

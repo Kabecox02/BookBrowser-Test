@@ -17,6 +17,7 @@ namespace BookBrowser
         private string ISBN;
         private string publisher;
         private string title;
+        public static bool hassearched;
 
         public Search()
         {
@@ -49,6 +50,11 @@ namespace BookBrowser
                 DataTable dtable = new DataTable();
                 sda.Fill(dtable);
 
+                //Adds the recent search to BookHistory Table to store the last searched book
+                string query2 = @"INSERT INTO BookHistory (SearchNumber, searchauthor, searchisbn, searchpub, searchtitle)
+                                    VALUES (1, " + textBox1.Text + ", " + textBox2.Text + ", " + textBox3.Text + ", " + textBox4.Text + ")";
+                hassearched = true; 
+
                 dataGridView1.DataSource = dtable;
                 if (dtable.Rows.Count < 1)
                 {
@@ -56,8 +62,6 @@ namespace BookBrowser
                 }
 
             }
-
-
 
         }
 
