@@ -178,6 +178,20 @@ C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrows
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_MainMenu.resources
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Randomize.resources
 C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Search.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.AssemblyReference.cache
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.CreateAccountForm.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.History.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Input.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_LogIn.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_MainMenu.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Randomize.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Search.resources
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.GenerateResource.cache
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.AssemblyInfoInputs.cache
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.AssemblyInfo.cs
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.CoreCompileInputs.cache
+C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.sourcelink.json
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\BookBrowser.exe
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\BookBrowser.deps.json
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\BookBrowser.runtimeconfig.json
@@ -232,19 +246,6 @@ C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-window
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.AssemblyReference.cache
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.History.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Input.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_LogIn.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.BookBrowser_MainMenu.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Randomize.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.Search.resources
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.GenerateResource.cache
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.AssemblyInfoInputs.cache
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.AssemblyInfo.cs
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.csproj.CoreCompileInputs.cache
-C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.sourcelink.json
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrow.70146436.Up2Date
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.dll
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\refint\BookBrowser.dll
