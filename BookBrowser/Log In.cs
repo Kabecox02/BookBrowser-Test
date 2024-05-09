@@ -29,20 +29,20 @@ namespace BookBrowser
         private void button1_Click(object sender, EventArgs e)
         {
             string username, password;
-            
+
 
             username = textBox1.Text;
             password = textBox2.Text;
             //NEED TO ADD THE TABLE NAME HERE NOT "credentials"
             try
             {
-                string query = "SELECT * FROM credentials WHERE username = '"+textBox1.Text+"' AND password = '"+textBox2.Text+"'";
+                string query = "SELECT * FROM credentials WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
                 DataTable dtable = new DataTable();
                 sda.Fill(dtable);
 
-                if(dtable.Rows.Count > 0)
+                if (dtable.Rows.Count > 0)
                 {
                     username = textBox1.Text;
                     password = textBox2.Text;
@@ -60,7 +60,7 @@ namespace BookBrowser
 
 
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Invalid Login \n Please try again");
                 textBox1.Clear();
@@ -70,6 +70,11 @@ namespace BookBrowser
             {
                 conn.Close();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

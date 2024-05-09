@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookBrowser
-build_property.ProjectDir = C:\Users\starz\Desktop\Programs\School Programs\IT488\BookBrowser-Test\BookBrowser\
+build_property.ProjectDir = C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

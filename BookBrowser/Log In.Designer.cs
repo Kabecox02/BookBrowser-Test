@@ -35,6 +35,7 @@
             label3 = new Label();
             label4 = new Label();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -96,7 +97,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(418, 278);
+            button1.Location = new Point(467, 271);
             button1.Name = "button1";
             button1.Size = new Size(100, 42);
             button1.TabIndex = 6;
@@ -104,11 +105,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(244, 271);
+            button2.Name = "button2";
+            button2.Size = new Size(100, 42);
+            button2.TabIndex = 7;
+            button2.Text = "Create Account";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // BookBrowser_LogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -131,5 +143,6 @@
         private Label label3;
         private Label label4;
         private Button button1;
+        private Button button2;
     }
 }
