@@ -63,11 +63,4 @@ namespace BookBrowser
                 createAccountForm.Show();
                 this.Hide();
             }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-        }
-    }
 }
