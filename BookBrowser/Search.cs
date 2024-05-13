@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace BookBrowser
 {
@@ -27,34 +29,38 @@ namespace BookBrowser
 
         SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
-           
-                bool isValid = true;
-                author = textBox1.Text;
-                ISBN = textBox2.Text;
-                publisher = textBox3.Text;
-                title = textBox4.Text;
+            //Variables used
+            author = textBox1.Text;
+            ISBN = textBox2.Text;
+            publisher = textBox3.Text;
+            title = textBox4.Text;
 
-                if (author.Length == 0 && ISBN.Length == 0 && publisher.Length == 0 && title.Length == 0)
-                {
-                    isValid = false;
-                    MessageBox.Show("At least one field must be filled out");
-                }
-
+            //Will catch if the user hasn't inserted any information into the search feature
+            if (author.Length == 0 && ISBN.Length == 0 && publisher.Length == 0 && title.Length == 0)
+            {
+                MessageBox.Show("At least one field must be filled out");
+            }
+            
             else
             {
-                string query = "SELECT * FROM Books WHERE author = '" + textBox1.Text + "' OR ISBN = '" + textBox2.Text + "' OR Publisher = '"+textBox3.Text+"' OR Title = '"+textBox4.Text+"'";
+                //Creates a query that will display the table that fit within the parameters given by user
+                //And adds said query into BookHistory for the History Form
+                string query = @"SELECT * FROM Books WHERE Author = '" + textBox1.Text + "' OR ISBN = '" + textBox2.Text + "' OR Publisher = '"+textBox3.Text+"' OR Title = '"+textBox4.Text+ @"';
+                                INSERT INTO BookHistory 
+                                SELECT * FROM Books
+                                WHERE Author = '" + textBox1.Text + "' OR ISBN = '" + textBox2.Text + "' OR Publisher = '" + textBox3.Text + "' OR Title = '" + textBox4.Text + "'; ";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
+                //shows the program that the user has searched something
+                hassearched = true; 
+                
+                //Displays the Results of the search
                 DataTable dtable = new DataTable();
                 sda.Fill(dtable);
 
-                //Adds the recent search to BookHistory Table to store the last searched book
-                string query2 = @"INSERT INTO BookHistory (SearchNumber, searchauthor, searchisbn, searchpub, searchtitle)
-                                    VALUES (1, " + textBox1.Text + ", " + textBox2.Text + ", " + textBox3.Text + ", " + textBox4.Text + ")";
-                hassearched = true; 
-
+                //Shows if the searched book isn't in the system
                 dataGridView1.DataSource = dtable;
                 if (dtable.Rows.Count < 1)
                 {
