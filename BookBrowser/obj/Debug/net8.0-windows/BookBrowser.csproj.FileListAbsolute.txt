@@ -252,3 +252,4 @@ C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-window
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.pdb
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.genruntimeconfig.cache
 C:\Users\yohan\Source\Repos\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\ref\BookBrowser.dll
+C:\Users\Kabea\Source\Repos\Kabecox02\BookBrowser-Test\BookBrowser\obj\Debug\net8.0-windows\BookBrowser.CreateAccountForm.resources
