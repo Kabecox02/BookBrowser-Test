@@ -26,7 +26,7 @@ CREATE TABLE credentials (
 
 INSERT INTO Books (Author, Genre, ISBN, Title, Publisher)
 VALUES
-	('Edgar Allen Poe', 'Gothic Fiction', 1, 'The Raven', 'Harper & Brothers'),
+	('Edgar Allan Poe', 'Gothic Fiction', 1, 'The Raven', 'Harper & Brothers'),
 	('F. Scott Fitzgerald', 'Tragedy', 2, 'The Great Gatsby', 'Charles Scribner''s Sons'),
 	('J.D. Salinger', 'Realistic Fiction', 3, 'The Catcher in the Rye', 'Litte, Brown and Company'),
 	('Herman Melville', 'Adventure Fiction', 4, 'Moby Dick', 'Harper & Brothers'),
