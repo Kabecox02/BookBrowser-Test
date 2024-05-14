@@ -12,11 +12,11 @@ CREATE TABLE Books (
 );
 
 CREATE TABLE BookHistory (
-	SearchNumber INT, 
-	searchauthor VARCHAR(100), 
-	searchisbn INT, 
-	searchpub VARCHAR(100), 
-	searchtile VARCHAR(100)
+	Author VARCHAR(50), 
+	Genre VARCHAR(100), 
+	ISBN INT, 
+	Title VARCHAR(100), 
+	Publisher VARCHAR(100)
 );
 
 CREATE TABLE credentials (
