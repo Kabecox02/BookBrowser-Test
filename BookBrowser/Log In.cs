@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 
 
@@ -10,10 +11,8 @@ namespace BookBrowser
         {
             InitializeComponent();
         }
-       
-            //Database connection
-            SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
-        private string connectionString;
+        //Add Database info Here
+        SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -22,57 +21,50 @@ namespace BookBrowser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username, password;
-
-
-            username = textBox1.Text;
-            password = textBox2.Text;
-            //creating a query that pulls up any mathcing tables that match the credentials
+            string username = textBox1.Text;
+            string password = textBox2.Text;
+            // These strings are stored after the user's account is created.
+            // The db will verify if the user is in the system granting access.
             try
             {
-                string query = "SELECT * FROM credentials WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'";
-                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
-
-                DataTable dtable = new DataTable();
-                sda.Fill(dtable);
-
-                if (dtable.Rows.Count > 0)
+                using (SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;"))
                 {
-                    username = textBox1.Text;
-                    password = textBox2.Text;
+                    string query = "SELECT * FROM credentials WHERE username = @username AND password = @password";
+                    SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+                    sda.SelectCommand.Parameters.AddWithValue("@username", username);
+                    sda.SelectCommand.Parameters.AddWithValue("@password", password);
 
-                    BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
-                    form4.Show();
-                    this.Hide();
+                    DataTable dtable = new DataTable();
+                    sda.Fill(dtable);
+
+                    if (dtable.Rows.Count > 0)
+                    {
+                        MessageBox.Show("Login successful!");
+                        // Proceed with your logic here, like opening the main menu form
+                        BookBrowser_MainMenu form4 = new BookBrowser_MainMenu();
+                        form4.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Incorrect Username or Password");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Incorrect Username or Password");
-                    textBox1.Clear();
-                    textBox2.Clear();
-                }
-
-
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Invalid Login \n Please try again");
-                textBox1.Clear();
-                textBox2.Clear();
+                MessageBox.Show("Error: " + ex.Message);
             }
-            finally
-            {
-                conn.Close();
-            }
-
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            CreateAccountForm form7 = new CreateAccountForm();
-            form7.Show();
-            this.Hide();
+            try
+            {
+                CreateAccountForm createAccountForm = new CreateAccountForm();
+                createAccountForm.Show();
+                this.Hide();
+            }
+            catch { }
         }
-    
     }
 }

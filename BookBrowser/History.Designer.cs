@@ -57,9 +57,9 @@
             // HistoryGridView
             // 
             HistoryGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            HistoryGridView.Location = new Point(227, 85);
+            HistoryGridView.Location = new Point(140, 112);
             HistoryGridView.Name = "HistoryGridView";
-            HistoryGridView.Size = new Size(352, 258);
+            HistoryGridView.Size = new Size(532, 139);
             HistoryGridView.TabIndex = 2;
             HistoryGridView.CellContentClick += HistoryGridView_CellContentClick;
             // 
