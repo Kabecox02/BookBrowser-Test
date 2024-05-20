@@ -16,11 +16,11 @@ namespace BookBrowser
         public CreateAccountForm()
         {
             InitializeComponent();
-            InitializeDatabaseConnection();
+            //InitializeDatabaseConnection();
         }
 
         // Method to initialize database connection
-        private void InitializeDatabaseConnection()
+        /*private void InitializeDatabaseConnection()
         {
             try
             {
@@ -37,7 +37,7 @@ namespace BookBrowser
                 // Optionally, handle the exception according to your application's requirements
             }
         }
-
+        */
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -48,7 +48,7 @@ namespace BookBrowser
 
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        /*private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             // Email validation on TextChanged event
             if (!IsValidEmail(textBox1.Text))
@@ -62,9 +62,9 @@ namespace BookBrowser
                 errorProvider1.SetError(textBox1, "");
             }
         }
-
+        */
         // Regular expression for email validation
-        private bool IsValidEmail(string email)
+        /*private bool IsValidEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
                 return false;
@@ -80,7 +80,7 @@ namespace BookBrowser
                 return false;
             }
         }
-
+        */
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             // Password validation on TextChanged event
@@ -101,7 +101,7 @@ namespace BookBrowser
         }
 
 
-        private void TextBox3_TextChanged(object sender, EventArgs e)
+        /*private void TextBox3_TextChanged(object sender, EventArgs e)
         {
             string serverName = textBox3.Text.Trim(); // Trim any extra whitespace
 
@@ -122,16 +122,39 @@ namespace BookBrowser
                     // Optionally, handle the exception according to your application's requirements
                 }
             }
+        
         }
-
+        */
         private void button1_Click(object sender, EventArgs e)
         {
+
+            SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
+            conn.Open();
+
+            SqlCommand cnn = new SqlCommand("insert into credentials values(@username,@password)", conn);
+
+            cnn.Parameters.AddWithValue("@username", (textBox1.Text));
+            cnn.Parameters.AddWithValue("@password", (textBox2.Text));
+          
+
+            cnn.ExecuteNonQuery();
+
+            conn.Close();
+            MessageBox.Show("Account has been created successfully");
+
+
+
+
+
+            /* Previous code
             if (connection != null && connection.State == ConnectionState.Open)
             {
                 string username = textBox1.Text;
                 string password = textBox2.Text;
 
                 string insertQuery = "INSERT INTO Users (Username, Password) VALUES (@Username, @Password)";
+
+                
 
                 try
                 {
@@ -141,6 +164,7 @@ namespace BookBrowser
                         command.Parameters.AddWithValue("@Password", password);
                         command.ExecuteNonQuery();
                         MessageBox.Show("User account created successfully.");
+
                     }
                 }
                 catch (Exception ex)
@@ -152,6 +176,14 @@ namespace BookBrowser
             {
                 MessageBox.Show("Database connection is not established or closed.");
             }
+            */
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BookBrowser_LogIn LogIn = new BookBrowser_LogIn();
+            LogIn.Show();
+            this.Hide();
         }
     }
 }

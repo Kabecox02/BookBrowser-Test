@@ -36,7 +36,8 @@ namespace BookBrowser
         {
 
         }
-        
+
+
         private void button2_Click(object sender, EventArgs e)
         {
             bool isValid = true;
@@ -46,26 +47,19 @@ namespace BookBrowser
             title = textBox4.Text;
             ISBN = textBox5.Text;
 
-            if (author.Length == 0 && genre.Length == 0 && publisher.Length == 0 && title.Length == 0)
+            //validates that at least one box has an entry
+            if (author.Length == 0 && genre.Length == 0 && publisher.Length == 0 && title.Length == 0 && ISBN.Length == 0)
             {
                 isValid = false;
                 MessageBox.Show("At least one field must be filled out");
             }
-
-           //This is my code but does not work yet(kabe)
-           else if(ISBN.GetType() == typeof(int))
+           // validates that ISBN field is only numbers
+            else if (System.Text.RegularExpressions.Regex.IsMatch(textBox5.Text, "[^0-9]"))
             {
-                MessageBox.Show("Your ISBN entry must be a number");
+                MessageBox.Show("The ISBN field may only contain numbers");
+                textBox5.Text = null;
             }
-            
-                 
-            
-            
-                
-            
-
-           
-
+            //adds the information to the table
             else
             {
                 SqlConnection conn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS01;Initial Catalog=BookBrowser;Integrated Security=SSPI;");
@@ -81,6 +75,8 @@ namespace BookBrowser
 
                 cnn.ExecuteNonQuery();
 
+
+                //OLD METHODS
                 //SqlCommand sc = new SqlCommand("insert into books(author,@genre,@ISBN, @publisher, @title) values('" + textBox1.Text + "','" + textBox2.Text+"','"+textBox5.Text+"','" + textBox3.Text+"',"+textBox4.Text+");",conn);
                 //object obj = sc.ExecuteNonQuery();
                 //DialogResult dialogResult = MessageBox.Show(obj + " has been inserted");
