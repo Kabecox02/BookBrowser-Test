@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookBrowser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+781351af379701a326a31f8fd562606bf9d3f56c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75860e001b59b452508c5525a82b19d00b8b26aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookBrowser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookBrowser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

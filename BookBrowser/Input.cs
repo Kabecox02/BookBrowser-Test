@@ -42,9 +42,9 @@ namespace BookBrowser
         {
             bool isValid = true;
             author = textBox1.Text;
-            genre = textBox2.Text;
+            genre = textBox4.Text;
             publisher = textBox3.Text;
-            title = textBox4.Text;
+            title = textBox2.Text;
             ISBN = textBox5.Text;
 
             //validates that at least one box has an entry
@@ -68,10 +68,10 @@ namespace BookBrowser
                 SqlCommand cnn = new SqlCommand("insert into books values(@author,@genre,@ISBN,@publisher,@title)", conn);
 
                 cnn.Parameters.AddWithValue("@author", (textBox1.Text));
-                cnn.Parameters.AddWithValue("@Genre", (textBox2.Text));
+                cnn.Parameters.AddWithValue("@Genre", (textBox4.Text));
                 cnn.Parameters.AddWithValue("@ISBN", int.Parse(textBox5.Text));
                 cnn.Parameters.AddWithValue("@publisher", (textBox3.Text));
-                cnn.Parameters.AddWithValue("@Title", (textBox4.Text));
+                cnn.Parameters.AddWithValue("@Title", (textBox2.Text));
 
                 cnn.ExecuteNonQuery();
 

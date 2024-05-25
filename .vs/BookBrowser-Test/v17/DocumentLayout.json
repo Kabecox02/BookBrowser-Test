@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,10 +57,6 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DBCreation.sql",
@@ -68,8 +64,7 @@
               "RelativeDocumentMoniker": "DBCreation.sql",
               "ToolTip": "DBCreation.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-17T01:12:48.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T01:12:48.002Z"
             },
             {
               "$type": "Document",
@@ -118,8 +113,7 @@
               "RelativeToolTip": "BookBrowser\\History.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:19:31.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T01:19:31.945Z"
             },
             {
               "$type": "Document",
